@@ -1,0 +1,10 @@
+C:\Users\Y2K INFORMATICA\Desktop\ABMClientes\ABM_Clientes\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Y2K INFORMATICA\Desktop\ABMClientes\ABM_Clientes\obj\Release\WindowsApplication1.GrillaClientes.resources
+C:\Users\Y2K INFORMATICA\Desktop\ABMClientes\ABM_Clientes\obj\Release\WindowsApplication1.Resources.resources
+C:\Users\Y2K INFORMATICA\Desktop\ABMClientes\ABM_Clientes\obj\Release\ABM_Clientes.vbproj.GenerateResource.Cache
+C:\Users\Y2K INFORMATICA\Desktop\ABMClientes\ABM_Clientes\bin\Release\ABM_Clientes.exe
+C:\Users\Y2K INFORMATICA\Desktop\ABMClientes\ABM_Clientes\bin\Release\ABM_Clientes.pdb
+C:\Users\Y2K INFORMATICA\Desktop\ABMClientes\ABM_Clientes\bin\Release\ABM_Clientes.xml
+C:\Users\Y2K INFORMATICA\Desktop\ABMClientes\ABM_Clientes\obj\Release\ABM_Clientes.exe
+C:\Users\Y2K INFORMATICA\Desktop\ABMClientes\ABM_Clientes\obj\Release\ABM_Clientes.xml
+C:\Users\Y2K INFORMATICA\Desktop\ABMClientes\ABM_Clientes\obj\Release\ABM_Clientes.pdb
