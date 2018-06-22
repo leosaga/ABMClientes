@@ -99,9 +99,9 @@
     End Sub
 
     Private Sub TextBox2_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox2.KeyPress
-        If Not Char.IsLetter(e.KeyChar) Or Char.IsWhiteSpace(e.KeyChar) Then
-
-
+        If Char.IsNumber(e.KeyChar) Or Char.IsPunctuation(e.KeyChar) Or Char.IsSymbol(e.KeyChar) Then
+            e.Handled = True
+            Exit Sub
         End If
     End Sub
 
