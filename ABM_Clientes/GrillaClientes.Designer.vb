@@ -28,12 +28,12 @@ Partial Class GrillaClientes
         Me.Button3 = New System.Windows.Forms.Button
         Me.Button4 = New System.Windows.Forms.Button
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
-        Me.CollectionClassBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.IdDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.NombreDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.DireccionDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.CategivaDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
         Me.SaldoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.CollectionClassBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CollectionClassBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -67,6 +67,7 @@ Partial Class GrillaClientes
         '
         'Button4
         '
+        Me.Button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Button4.Location = New System.Drawing.Point(375, 221)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
@@ -79,18 +80,16 @@ Partial Class GrillaClientes
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.AutoGenerateColumns = False
+        Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.Highlight
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdDataGridViewTextBoxColumn, Me.NombreDataGridViewTextBoxColumn, Me.DireccionDataGridViewTextBoxColumn, Me.CategivaDataGridViewTextBoxColumn, Me.SaldoDataGridViewTextBoxColumn})
         Me.DataGridView1.DataSource = Me.CollectionClassBindingSource
+        Me.DataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.DataGridView1.Location = New System.Drawing.Point(3, 12)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(472, 180)
+        Me.DataGridView1.Size = New System.Drawing.Size(545, 180)
         Me.DataGridView1.TabIndex = 4
-        '
-        'CollectionClassBindingSource
-        '
-        Me.CollectionClassBindingSource.DataSource = GetType(WindowsApplication1.CollectionClass)
         '
         'IdDataGridViewTextBoxColumn
         '
@@ -127,11 +126,16 @@ Partial Class GrillaClientes
         Me.SaldoDataGridViewTextBoxColumn.Name = "SaldoDataGridViewTextBoxColumn"
         Me.SaldoDataGridViewTextBoxColumn.ReadOnly = True
         '
+        'CollectionClassBindingSource
+        '
+        Me.CollectionClassBindingSource.DataSource = GetType(WindowsApplication1.Classcollection)
+        '
         'GrillaClientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(479, 261)
+        Me.BackColor = System.Drawing.Color.Red
+        Me.ClientSize = New System.Drawing.Size(554, 261)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)

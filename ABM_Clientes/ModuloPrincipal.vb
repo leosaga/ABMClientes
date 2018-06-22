@@ -1,7 +1,7 @@
 ﻿Module ModuloPrincipal
-    Public lst As CollectionClass
+    Public lst As Classcollection
     Sub main()
-        lst = New CollectionClass
+        lst = New Classcollection
         Application.Run(GrillaClientes)
     End Sub
 End Module
